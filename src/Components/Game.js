@@ -51,7 +51,7 @@ import { Paper } from '@material-ui/core';
     
 
     render() {
-      console.log("hi");
+      
       const history = this.state.history;
       const current = history[this.state.stepNumber];
       const winner = calculateWinner(current.squares);
